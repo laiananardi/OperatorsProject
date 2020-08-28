@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <nav>
+        <h1>Operadores</h1>
+    </nav>
+
+    <main>
+        <div>
+            <label class="label" for="component-name">Digite um número</label>
+            <input type="number" class="textbox" placeholder="Número" id="num1">
+        </div>
+        <div>
+            <label class="label" for="component-name">Digite outro número</label>
+            <input type="number" class="textbox" placeholder="Número" id="num2" onblur="calcular()">
+        </div>
+    
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th width="200px">Operador</th>
+                        <th>Resultado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Soma</td>
+                        <td id="answer1"></td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Subtração</td>
+                        <td id="answer2"></td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Multiplicação</td>
+                        <td id="answer3"></td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Divisão</td>
+                        <td id="answer4"></td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Resto</td>
+                        <td id="answer5"></td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Potência</td>
+                        <td id="answer6"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="index.js" ></script>
+        
+</body>
+</html>
